@@ -24,5 +24,7 @@ export const env = {
   FRONTEND_URL: process.env.FRONTEND_URL || 'http://localhost:3000',
   JWT_SECRET: process.env.JWT_SECRET || 'takemethere_jwt_secret_token_key_2026_super_secure',
   ADMIN_SECRET: process.env.ADMIN_SECRET || 'takemethere_admin_passcode_2026',
+  RAZORPAY_KEY_ID: process.env.RAZORPAY_TEST_API_KEY || '',
+  RAZORPAY_KEY_SECRET: process.env.RAZORPAY_TEST_API_KEY_SECRET || '',
   IS_PRODUCTION: process.env.NODE_ENV === 'production',
 };
